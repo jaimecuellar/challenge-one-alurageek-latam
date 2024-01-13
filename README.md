@@ -42,8 +42,8 @@ Ve a la pestaña "Acerca" o "About" de tu proyecto en el menú de la izquierda d
 
 
 ```plantuml
-@startuml
-Foo --> Bar
-@enduml
+     @startuml
+     Foo --> Bar
+     @enduml
 ```
 
