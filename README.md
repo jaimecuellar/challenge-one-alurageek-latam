@@ -41,9 +41,11 @@ Ve a la pestaña "Acerca" o "About" de tu proyecto en el menú de la izquierda d
      <a href="https://www.linkedin.com/company/alura-latam/mycompany/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
 
 
-```plantuml
-     @startuml
-          Foo --> Bar
-     @enduml
+```mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
 ```
 
